@@ -13,25 +13,25 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+API_ID = int(environ.get('API_ID', '2937509'))
+API_HASH = environ.get('API_HASH', '8ebff24a3ee13fcaa4ec17ec8328eeab')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7384424715:AAGhbBLYSj7E-4_yaNw4oAv-NpTbsS17HQc')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1337013299').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/djreme") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/PriyaMovis_Group')
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6032247476').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/TELUGUHACKERS22") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002445141614'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/mxsfilesg')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vk0798144:hVu0GAPUUDIxylwM@cluster0.o96wa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "vk0798144")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001981616450'))  # set shortner log channel
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002445141614'))  # set shortner log channel
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0')) # The movie you upload in it will be deleted from the bot.
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
 auth_channel = environ.get('AUTH_CHANNEL', '')
@@ -43,14 +43,14 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link 
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', False)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/PriyaBotUpdates/270")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/PriyaBotUpdates/270")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/6bdfcc98d1317336a4f5e-a01acc33113696e056.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "71e1bb5fe24bcb9bef53ce57fb8cfb2b6bf2d19d")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'atglinks.com')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "71e1bb5fe24bcb9bef53ce57fb8cfb2b6bf2d19d")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'atglinks.com')
+SHORTENER_API = environ.get("SHORTENER_API", "440282d5d4798c56058b7ebcce62c00b493d253b")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'gplinks.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", '')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", '')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
